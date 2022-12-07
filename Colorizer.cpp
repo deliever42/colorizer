@@ -16,7 +16,7 @@ const char* PROTOTXT_URL = "https://raw.githubusercontent.com/richzhang/coloriza
 const char* MODEL_URL = "https://people.eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel";
 const char* PYTHON_URL = "https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe";
 const char* FFMPEG_URL = "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip";
-const char* PYTHON_SCRIPT_URL = "https://download1475.mediafire.com/ifzaua4nwthg/yl4442gtc09hfxi/colorize_image.py";
+const char* PYTHON_SCRIPT_URL = "https://raw.githubusercontent.com/deliever42/colorizer/scripts/colorize_image.py";
 
 fs::path currentPath = fs::current_path();
 
@@ -390,3 +390,5 @@ int main()
 
 	return 0;
 }
+
+// Copyright (C) Deliever (https://deliever42.me)
