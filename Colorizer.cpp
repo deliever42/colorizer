@@ -344,7 +344,7 @@ int main()
 
 				//step 4: extract pixel format
 				cout << "[4/9] Extracting pixel format..." << endl;
-				system(("ffprobe -v error -select_streams v:0 -of default=noprint_wrappers=1:nokey=1 -show_entries stream=pix_fmt " + currentPath.string() + "\\" + basename + " > " + destPath + "\\fps.txt").c_str());
+				system(("ffprobe -v error -select_streams v:0 -of default=noprint_wrappers=1:nokey=1 -show_entries stream=pix_fmt " + currentPath.string() + "\\" + basename + " > " + destPath + "\\pixel_format.txt").c_str());
 
 				ifstream pixelFormatFile(destPath + "\\pixel_format.txt");
 				string pixelFormat;
