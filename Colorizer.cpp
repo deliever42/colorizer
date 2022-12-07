@@ -224,7 +224,7 @@ void downloadDependencies() {
 	//step 7: install python
 	if (!checkPython()) {
 		installPython();
-		cout << "[7/9] Downloaded python" << endl;
+		cout << "[7/9] Python installed" << endl;
 	}
 	else {
 		cout << "[7/9] Python already exists" << endl;
